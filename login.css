@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background-color: #faf9f6;
+    border-radius: 10px;
+}
+
+.login-btn {
+    width: 150px;
+    height: 40px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.sign-btn {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.login-btn:hover {
+    background-color: #333;
+}
+
+.sign-up {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.sign-up a {
+    background: black;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.sign-up a:hover {
+
+    background:black;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.login-through {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.social-icons img:hover {
+    opacity: 0.8;
+}
