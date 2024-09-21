@@ -14,7 +14,3 @@ The Study Buddy website is a platform designed for students to connect, collabor
 - **Backend**: (Specify your backend technology if applicable, e.g., Django, Flask, Node.js)
 - **Database**: (Specify your database technology if applicable, e.g., SQLite, PostgreSQL)
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
