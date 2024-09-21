@@ -1,0 +1,63 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Group Finder</title>
+    <link rel="stylesheet" href="findinggroup.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Find a Study Group</h1>
+        <input type="text" id="searchInput" placeholder="Search for a group..." onkeyup="searchGroups()">
+    </header>
+
+    <section id="recommendations">
+        <h2>Available Study Groups</h2>
+        <div class="group-card" data-name="Math Wizards">
+            <h3>Math Wizards</h3>
+            <p>Subject: Calculus</p>
+            <p>Number of Members: 5</p>
+            <button>Join Group</button>
+        </div>
+
+        <div class="group-card" data-name="Science Squad">
+            <h3>Science Squad</h3>
+            <p>Subject: BEEE</p>
+            <p>Number of Members: 4</p>
+            <button>Join Group</button>
+        </div>
+
+        <div class="group-card" data-name="History Heroes">
+            <h3>History Heroes</h3>
+            <p>Subject: Physics</p>
+            <p>Number of Members: 6</p>
+            <button>Join Group</button>
+        </div>
+
+        <div class="group-card" data-name="Coding Masters">
+            <h3>Coding Masters</h3>
+            <p>Subject: Python</p>
+            <p>Number of Members: 3</p>
+            <button>Join Group</button>
+        </div>
+    </section>
+
+    <script>
+        function searchGroups() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.group-card');
+
+            cards.forEach(card => {
+                const groupName = card.getAttribute('data-name').toLowerCase();
+                if (groupName.includes(input)) {
+                    card.style.display = "block";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        }
+    </script>
+    
+
+</body></html>
