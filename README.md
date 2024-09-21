@@ -11,6 +11,5 @@ The Study Buddy website is a platform designed for students to connect, collabor
 
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap
-- **Backend**: (Specify your backend technology if applicable, e.g., Django, Flask, Node.js)
-- **Database**: (Specify your database technology if applicable, e.g., SQLite, PostgreSQL)
-
+- **Backend**: Flask
+- **Database**: MySQL
