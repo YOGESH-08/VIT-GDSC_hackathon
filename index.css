@@ -31,6 +31,8 @@
     height: 100vh;
     align-items: center;
     color: white;
+    background: rgb(116,119,119);
+    background: linear-gradient(90deg, rgb(64, 65, 65) 0%, rgba(7,6,28,1) 60%, rgba(13,14,24,1) 100%, rgba(116,119,119,1) 100%);
 }
 
 .title {
